@@ -7,10 +7,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 .logo img {
-        width: 175px; /* Adjust the size as needed */
-        height: 250px; /* Adjust the size as needed */
-        border-radius: 300%; /* Makes the image round */
-        object-fit: cover; /* Ensures the image fits the container */}
+	width: 200px; /* Set the diameter of the circle */
+	height: 200px; /* Set the diameter of the circle */
+	border-radius: 100%; /* Make the image circular */
+	object-fit: cover; /* Ensure the image covers the circle without distortion */
+	border: 2px solid #fff; /* Optional: Add a white border around the circle */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for a professional look */
+}
 /* main.css */
 body.is-preload * {
     transition: none !important;
